@@ -1,0 +1,11 @@
+Timestamp,Transaction,Risk Score,Status,Reasons
+"22/Apr/2026 10:00:00,000",TXN100001,0,proper,
+"22/Apr/2026 10:05:00,000",TXN100002,0,proper,
+"22/Apr/2026 10:10:00,000",TXN200001,30,suspicious,Duplicate Transaction
+"22/Apr/2026 10:12:00,000",TXN200001,30,suspicious,Duplicate Transaction
+"22/Apr/2026 10:20:00,000",TXN300001,30,suspicious,Duplicate Transaction
+"22/Apr/2026 10:20:08,000",TXN300001,30,suspicious,Duplicate Transaction
+"22/Apr/2026 10:30:00,000",TXN400001,130,fraud,"Duplicate Transaction, High Transaction Velocity, Transaction Used on Multiple Devices, Transaction Used from Multiple IPs, Repeated Failed Attempts"
+"22/Apr/2026 10:30:03,000",TXN400001,130,fraud,"Duplicate Transaction, High Transaction Velocity, Transaction Used on Multiple Devices, Transaction Used from Multiple IPs, Repeated Failed Attempts"
+"22/Apr/2026 10:30:06,000",TXN400001,130,fraud,"Duplicate Transaction, High Transaction Velocity, Transaction Used on Multiple Devices, Transaction Used from Multiple IPs, Repeated Failed Attempts"
+"22/Apr/2026 10:45:00,000",TXN500001,0,proper,
